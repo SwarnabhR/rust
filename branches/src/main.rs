@@ -17,4 +17,9 @@ fn main(){
         count += 1;
     }
     println!("End count = {count}");
+
+    for number in (1..4).rev(){
+        println!("{number}");
+    }
+    println!("LIFTOFF!!!");
 }
